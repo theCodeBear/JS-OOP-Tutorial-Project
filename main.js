@@ -1,17 +1,17 @@
-var Pedro = {
+var pedro = {
   name: "pedro",
   age: 22
 };
 
-console.log(Pedro);
-Pedro.color = "orange";
-console.log(Pedro);
-// Pedro[hobby] = "cartwheels";     <-- gives an error because hobby is not a variable
-Pedro["hobby"] = "cartwheels";
-console.log(Pedro);
+console.log(pedro);
+pedro.color = "orange";
+console.log(pedro);
+// pedro[hobby] = "cartwheels";     <-- gives an error because hobby is not a variable
+pedro["hobby"] = "cartwheels";
+console.log(pedro);
 var skill = "baseball";
-Pedro[skill] = "8/10";
-console.log(Pedro);
+pedro[skill] = "8/10";
+console.log(pedro);
 
 console.log("\n\n");
 
@@ -53,7 +53,8 @@ console.log("Todd's ID: " + todd.getID());
 console.log("Deep's ID: " + deep.getID());
 console.log("Joe's ID: " + joe.getID());
 
-todd.height = "5'11";
+todd.height = "5 11";
+console.log('\n');
 console.log("todd's height: " + todd.height);
 console.log("joe's height: " + joe.height);     // undefined because height property was only added to todd object
 
